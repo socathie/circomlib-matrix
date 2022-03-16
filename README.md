@@ -1,4 +1,6 @@
-# CircomLib for Matrix Operations
+# Circom Circuits Library for Matrix Operations
+
+Disclaimer: This package is not affiliated with circom, circomlib, or iden3.
 
 ## Description
 
