@@ -1,6 +1,6 @@
 {
   "name": "circomlib-matrix",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Circuits library for matrix operations in circom",
   "main": "index.js",
   "directories": {
