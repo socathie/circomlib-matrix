@@ -15,9 +15,9 @@ describe("Matrix subtraction test", function () {
 
     it("should subtract two 2 by 3 matrices", async () => {
         const circuit = await wasm_tester(path.join(__dirname, "circuits", "matSub_test.circom"));
-        await circuit.loadConstraints();
-        assert.equal(circuit.nVars, 13);
-        assert.equal(circuit.constraints.length, 0);
+        //await circuit.loadConstraints();
+        //assert.equal(circuit.nVars, 13);
+        //assert.equal(circuit.constraints.length, 0);
 
         const INPUT = {
             "a": [["1","2","3"],["4","5","6"]],

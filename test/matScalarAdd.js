@@ -15,9 +15,9 @@ describe("Scalar addition to matrix test", function () {
 
     it("should add a scalar to a 2 by 3 matrix", async () => {
         const circuit = await wasm_tester(path.join(__dirname, "circuits", "matScalarAdd_test.circom"));
-        await circuit.loadConstraints();
-        assert.equal(circuit.nVars, 8);
-        assert.equal(circuit.constraints.length, 0);
+        //await circuit.loadConstraints();
+        //assert.equal(circuit.nVars, 8);
+        //assert.equal(circuit.constraints.length, 0);
 
         const INPUT = {
             "a": [["1","2","3"],["4","5","6"]],

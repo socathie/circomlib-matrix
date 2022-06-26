@@ -15,9 +15,9 @@ describe("Matrix multiple by element test", function () {
 
     it("should multiply two 2 by 3 matrices", async () => {
         const circuit = await wasm_tester(path.join(__dirname, "circuits", "matElemMul_test.circom"));
-        await circuit.loadConstraints();
-        assert.equal(circuit.nVars, 19);
-        assert.equal(circuit.constraints.length, 6);
+        //await circuit.loadConstraints();
+        //assert.equal(circuit.nVars, 19);
+        //assert.equal(circuit.constraints.length, 6);
 
         const INPUT = {
             "a": [["1","2","3"],["4","5","6"]],
